@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@+id/nav_graph"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="id.pahlevikun.ilt2.sample.navigation.NavigationHomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_navigation_home">
+        <action
+            android:id="@+id/action_splash_to_feeds"
+            app:destination="@id/second" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/second"
+        android:name="id.pahlevikun.ilt2.sample.navigation.NavigationSecondFragment"
+        android:label="Second"
+        tools:layout="@layout/fragment_navigation_second" />
+
+</navigation>

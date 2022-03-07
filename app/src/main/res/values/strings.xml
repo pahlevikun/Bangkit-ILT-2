@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Bangkit ILT-2 Sample</string>
+
+    <!-- Home -->
+    <string name="home_btn_title_fragment">Fragment</string>
+    <string name="home_btn_title_intent">Intent</string>
+    <string name="home_btn_title_lifecycle">Activity Lifecycle</string>
+    <string name="home_btn_title_navigation">Navigation Component</string>
+    <string name="home_btn_title_view_binding">View Binding</string>
+    <string name="home_btn_title_recyclerview">Recyclerview</string>
+
+    <!-- Activity Lifecycle -->
+    <string name="lifecycle_1_title">Activity Lifecycle Sample - 1</string>
+    <string name="lifecycle_2_title">Activity Lifecycle Sample - 2</string>
+    <string name="lifecycle_1_activity_name">Activity 1</string>
+    <string name="lifecycle_2_activity_name">Activity 1</string>
+    <string name="lifecycle_1_cta">Open Second Activity</string>
+
+    <!-- Intent -->
+    <string name="intent_title">Intent Sample</string>
+    <string name="intent_move_title">Intent 1 Activity Sample</string>
+    <string name="intent_move_extra_data_title">Intent Extra Data Sample</string>
+    <string name="intent_move_extra_object_title">Intent Extra Object Sample</string>
+    <string name="intent_move_result_title">Intent For Result Sample</string>
+    <string name="intent_move_activity">Open Activity</string>
+    <string name="intent_move_with_data">Open Activity with extra Data</string>
+    <string name="intent_move_with_object">Open Activity with extra Object</string>
+    <string name="intent_dial_number">Dial a Number</string>
+    <string name="intent_move_with_result">Open Activity for get the result</string>
+    <string name="intent_result_from_activity">Result from the activity</string>
+    <string name="intent_choose_number">Choose any number you like</string>
+    <string name="intent_result_value_50">50</string>
+    <string name="intent_result_value_100">100</string>
+    <string name="intent_result_value_150">150</string>
+    <string name="intent_result_value_200">200</string>
+    <string name="intent_choose">Choose</string>
+    <string name="intent_data_received">Data: </string>
+    <string name="intent_object_received">Object: </string>
+    <string name="intent_result">Result: %1s</string>
+    <string name="intent_data_copies">Name :%1s Age : %2s</string>
+    <string name="intent_object_copies">Name : %1s\nEmail : %2s\nAge : %3s\nLocation : %4s</string>
+
+    <!-- RecyclerView -->
+    <string name="recyclerview_title">RecyclerView Sample</string>
+    <string name="recyclerview_this_is_moveactivity">This is MoveActivity</string>
+    <string name="recyclerview_heroes_name">Heroes Name</string>
+    <string name="recyclerview_description">Description</string>
+    <string name="recyclerview_hello_blank_fragment">Hello blank fragment</string>
+    <string name="recyclerview_this_profile">This is activity Profile</string>
+    <string name="recyclerview_toast">You choose %1s</string>
+
+    <!-- Fragment -->
+    <string name="frg_main_title">Fragment Sample</string>
+    <string name="frg_main_profile_title">Fragment Sample - Profile</string>
+    <string name="frg_category_desc">This is fragment Category</string>
+    <string name="frg_category_lifestyle">Open fragment Lifestyle</string>
+    <string name="frg_category_name">Category Name</string>
+    <string name="frg_category_description">Category Description</string>
+    <string name="frg_to_profile">Go To Profile Activity</string>
+    <string name="frg_show_dialog">Show a Dialog</string>
+    <string name="frg_hello_home_fragment">Hello this is Home Fragment</string>
+    <string name="frg_to_category">Open fragment Category</string>
+    <string name="frg_question_coach">Who is the worst Manchester United head coach?</string>
+    <string name="frg_item_ole">Ole Gunnar Solskjaer</string>
+    <string name="frg_jose_mourinho">Jose Mourinho</string>
+    <string name="frg_louis_van_gaal">Louis Van Gaal</string>
+    <string name="frg_david_moyes">David Moyes</string>
+    <string name="frg_choose">Select</string>
+    <string name="frg_close">Close</string>
+
+    <!-- ViewBinding -->
+    <string name="view_binding_title">ViewBinding Sample</string>
+    <string name="view_binding_cta_add">Add Item</string>
+    <string name="view_binding_no_count">No Item Count</string>
+    <string name="view_binding_count">Item Count: %1s</string>
+
+    <!-- ViewBinding -->
+    <string name="navigation_component_home_fragment">Nav Component: Home Page</string>
+    <string name="navigation_component_second_fragment">Nav Component: Second Page</string>
+</resources>

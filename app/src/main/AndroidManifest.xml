@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="id.pahlevikun.ilt2.sample"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ILT2">
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- Lifecycle Section -->
+        <activity
+            android:name=".lifecycle.LifecycleActivity1"
+            android:label="@string/lifecycle_1_title"
+            android:exported="false" />
+        <activity
+            android:name=".lifecycle.LifecycleActivity2"
+            android:label="@string/lifecycle_2_title"
+            android:exported="false" />
+        <!-- Intent Section -->
+        <activity
+            android:name=".intent.IntentMainActivity"
+            android:label="@string/intent_title"
+            android:exported="false" />
+        <activity
+            android:name=".intent.IntentMoveActivity"
+            android:label="@string/intent_move_title"
+            android:exported="false" />
+        <activity
+            android:name=".intent.IntentMoveWithObjectActivity"
+            android:label="@string/intent_move_extra_object_title"
+            android:exported="false" />
+        <activity
+            android:name=".intent.IntentMoveForResultActivity"
+            android:label="@string/intent_move_result_title"
+            android:exported="false" />
+        <activity
+            android:name=".intent.IntentMoveWithDataActivity"
+            android:label="@string/intent_move_extra_data_title"
+            android:exported="false" />
+        <!-- RecyclerView Section -->
+        <activity
+            android:name=".recyclerview.RecyclerViewMainActivity"
+            android:label="@string/recyclerview_title"
+            android:exported="false" />
+        <!-- Fragment Section -->
+        <activity
+            android:name=".fragment.FrgMainActivity"
+            android:label="@string/frg_main_title"
+            android:exported="false" />
+        <activity
+            android:name=".fragment.FrgProfileActivity"
+            android:label="@string/frg_main_profile_title"
+            android:exported="false" />
+        <!-- ViewBinding Section -->
+        <activity
+            android:name=".viewbinding.ViewBindingMainActivity"
+            android:label="@string/view_binding_title"
+            android:exported="false" />
+        <!-- Navigation Component Section -->
+        <activity
+            android:name=".navigation.NavigationMainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>
