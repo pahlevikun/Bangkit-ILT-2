@@ -26,7 +26,7 @@ class NavigationHomeFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        (requireActivity() as AppCompatActivity).supportActionBar?.title = getString(R.string.navigation_component_home_fragment)
+        (activity as? AppCompatActivity)?.supportActionBar?.title = getString(R.string.navigation_component_home_fragment)
         viewBinding.btnCategory.setOnClickListener {
             findNavController().navigate(R.id.second)
         }
